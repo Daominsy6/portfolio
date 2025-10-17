@@ -2919,7 +2919,7 @@ var swiper = new Swiper(".mySwiper", {
     };
 
     try {
-      const response = await fetch("https://portfolio-contact-api-ll7o.onrender.com/", {
+const response = await fetch("https://portfolio-contact-api-ll7o.onrender.com/send", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data)
